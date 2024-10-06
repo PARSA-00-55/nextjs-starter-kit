@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+
 import "./globals.css";
 
 const geistSans = localFont({
@@ -18,10 +19,6 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  // [].forEach((item) => {
-  //   console.log(item);
-  // });
-
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
